@@ -10,7 +10,7 @@ import java.util.Map;
 @RestController
 public class TestController {
 
-    @GetMapping
+    @GetMapping 
     public Object hello(){
         Map<String, String> object = new HashMap<>();
 
