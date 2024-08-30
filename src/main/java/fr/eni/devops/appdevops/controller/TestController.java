@@ -14,8 +14,8 @@ public class TestController {
     public Object hello(){
         Map<String, String> object = new HashMap<>();
 
-        object.put("name", "Formateur");
-        object.put("email", "formateur@campus-eni.fr");
+        object.put("name", "Arnaud");
+        object.put("email", "adubois@campus-eni.fr");
         object.put("Date", String.valueOf(LocalDate.now()));
         return object;
 
