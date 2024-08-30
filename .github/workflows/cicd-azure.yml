@@ -1,8 +1,5 @@
 name: cicd-azure.yml
-on:
-  push:
-    branches:
-      - toAzure
+on: workflow_dispatch
 
 jobs:
   build:
