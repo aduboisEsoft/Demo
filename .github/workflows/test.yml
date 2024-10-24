@@ -2,7 +2,7 @@ name: AzureTest
 on:
   push:
     branches:
-      - testAzure
+      - testAzure2
 jobs: 
   premierJob:
     runs-on: ubuntu-latest
