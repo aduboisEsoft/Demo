@@ -1,0 +1,12 @@
+name: AzureTest
+on:
+  push:
+    branches:
+      - testAzure
+jobs: 
+  premierJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Salut
+        run: echo "Salut"
+        
